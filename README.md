@@ -1,73 +1,121 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+<br />
+<div align="center">
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<h3 align="center">Saxion Schedule Api</h3>
 
-## Description
+  <p align="center">
+    An Api for custom Saxion Schedule app.
+    <br />
+    <a href="#docs"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://saxion-rooster.netlify.app">View Site</a>
+    ·
+    <a href="https://github.com/Pimmeul/saxion-schedule-api/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Pimmeul/saxion-schedule-api/issues">Request Feature</a>
+  </p>
+</div>
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
 
-```bash
-$ npm install
-```
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#endpoints">Enpoints</a></li>
+    <li><a href="#docs">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-## Running the app
+<!-- ENDPOINTS -->
+<div id="endpoints"></div>
 
-```bash
-# development
-$ npm run start
+## Endpoints
+- [ ] **Auth**
+  - [ ] /api/v1/auth/login [POST]
+  - [ ] /api/v1/auth/register [POST]
+  - [ ] /api/v1/auth/logout [POST]
+- [ ] **Class**
+  - [ ] /api/v1/class/?={search} [GET]
+- [ ] **Lesson**
+  - [ ] /api/v1/lesson/{classId}/{year}/{week} [GET]
+- [ ] **User**
+  - [ ] /api/v1/user/calendar [POST, GET, UPDATE, DELETE]
 
-# watch mode
-$ npm run start:dev
+More endpoints to come.
+<div id="docs"> </div>
 
-# production mode
-$ npm run start:prod
-```
+## Docs
 
-## Test
+### Auth
 
-```bash
-# unit tests
-$ npm run test
+- #### /api/v1/auth/login [POST]
+    ```
+    Coming soon.
+    ```
+- #### /api/v1/auth/register [POST]
+    ```
+    Coming soon.
+    ```
+- #### /api/v1/auth/logout [POST]
+    ```
+    Coming soon.
+    ```
+### Class
+- #### /api/v1/class/?={search} [GET]
+    ```
+    Coming soon.
+    ```
 
-# e2e tests
-$ npm run test:e2e
+### Lesson
+- #### /api/v1/lesson/{classId}/{year}/{week} [GET]
+    ```
+    Coming soon.
+    ```
+### User
+- #### /api/v1/user/calendar [POST, GET, UPDATE, DELETE]
+    ```
+    Coming soon.
+    ```
+<!-- ROADMAP -->
+## Roadmap
 
-# test coverage
-$ npm run test:cov
-```
+- [ ] Add Changelog
+- [ ] Add Schedule
+- [ ] Add Custom Calendar Events
+- [ ] Add Class leaders
+- [ ] Add Support for adding Deadlines and other events to classes
 
-## Support
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
 ## License
 
-Nest is [MIT licensed](LICENSE).
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
